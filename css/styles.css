@@ -1,6 +1,63 @@
 /* Your Website Styles */
+body{
+  background: dimgrey;
+}
+
+/* Set Your Own Margin & Padding */
+h2, h3, p {
+  margin: 0;
+}
+
+/* Layout for Style Tile*/
 
 
+h1{
+
+  font-family: "Lobster", serif;
+  font-size: 3.75em;
+  line-height: 3.75em;
+  color: lightcyan;
+  background: dimgrey;
+
+}
+
+
+h2{
+
+  font-family: "lobster", serif;
+  font-size: 1.875em;
+  color:dimgrey;
+}
+
+h3{
+font-family: "lobster", serif;
+  font-size: 1.5em;
+  color: black;
+
+}
+em {
+  font-family: stint-ultra-expanded, serif;
+}
+
+p{
+  font-family: stint-ultra-expanded, serif;
+}
+
+section {
+  margin: 20px 0;
+}
+
+img {
+  border: black 10px;
+  width:100%;
+  max-width: 100%;
+}
+
+a{
+
+  color: white;
+
+}
 
 /* Gallery Stying */
 .gallery .control-button {
@@ -19,11 +76,16 @@
 .gallery {
   position: relative;
 }
+.gallery img{
+  border: 10px;
+}
 .gallery .item {
   height: 1000px;
   overflow: hidden;
   text-align: center;
-  background: white;
+  background: dimgrey;
+  
+
 }
 .gallery .controls {
   position: absolute;
@@ -48,5 +110,72 @@
 
 /* Show Grid */
 .showgrid {
-	background: white;
+	background: dimgrey;
+}
+
+.container {
+  margin: 0 auto;
+  width: 98%;
+}
+
+
+
+
+
+@media screen and (max-width: 2000px ) and (min-width: 1000px) {
+
+  
+
+
+}
+
+  /*desktop styling*/
+@media screen and (max-width: 1000px ){
+
+  .gallery {
+    width: 75%;
+    max-width: 75%;
+  }
+
+   img{
+    width: 75%;
+    max-width: 75%;
+  }
+
+
+}
+
+
+
+  /*tablet styling*/
+
+@media screen and (max-width: 768px ){
+
+ 
+  .gallery {
+    width: 50%;
+    max-width: 50%;
+  }
+
+
+}
+
+
+  /*mobile styling*/
+
+  @media screen and (max-width: 480px ){
+
+  
+
+  .gallery{
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+  }
+   img {
+    width:50%;
+    max-width: 50%;
+  }
+
+  
 }
