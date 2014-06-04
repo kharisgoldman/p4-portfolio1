@@ -80,7 +80,7 @@ a{
   border: 10px;
 }
 .gallery .item {
-  height: 1000px;
+  height: 100%;
   overflow: hidden;
   text-align: center;
   background: dimgrey;
@@ -124,7 +124,19 @@ a{
 
 @media screen and (max-width: 2000px ) and (min-width: 1000px) {
 
-  
+  .gallery {
+    width: 75%;
+    max-width: 75%;
+  }
+
+   img{
+    width: 75%;
+    max-width: 75%;
+  }
+
+
+}
+
 
 
 }
