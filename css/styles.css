@@ -22,7 +22,7 @@ h1{
 
 }
  
-        a { color: black; background: lightcyan; padding: 5px 10px; margin: 30px 0px; float: none; } a:hover { background-color: black; color: lightcyan; }
+        a { font-family: 'Open Sans', sans-serif; color: black; background: lightcyan; padding: 5px 10px; margin: 30px 0px; float: none; } a:hover { background-color: black; color: lightcyan; }
 
 h2{
 
@@ -32,7 +32,7 @@ h2{
 }
 
 h3{
-font-family: "lobster", serif;
+font-family: 'Open Sans', sans-serif;
   font-size: 1.5em;
   color: black;
 
