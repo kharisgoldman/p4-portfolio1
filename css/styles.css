@@ -1,6 +1,6 @@
 /* Your Website Styles */
 body{
-  background: dimgrey;
+  background: white;
 }
 
 /* Set Your Own Margin & Padding */
@@ -13,18 +13,18 @@ h2, h3, p {
 
 h1{
 
-  font-family: "Lobster", serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 3.75em;
   line-height: 3.75em;
-  color: lightcyan;
-  background: dimgrey;
+  color: black;
+  background: white;
 
 }
 
 
 h2{
 
-  font-family: "lobster", serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.875em;
   color:dimgrey;
 }
@@ -36,11 +36,11 @@ font-family: "lobster", serif;
 
 }
 em {
-  font-family: stint-ultra-expanded, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p{
-  font-family: stint-ultra-expanded, serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -83,7 +83,7 @@ a{
   height: 100%;
   overflow: hidden;
   text-align: center;
-  background: dimgrey;
+  background: white;
   
 
 }
@@ -110,7 +110,7 @@ a{
 
 /* Show Grid */
 .showgrid {
-	background: dimgrey;
+	background: white;
 }
 
 .container {
