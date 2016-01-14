@@ -1,6 +1,7 @@
 /* Your Website Styles */
 body{
   background: white;
+    font-size: 14px;
 }
 
 /* Set Your Own Margin & Padding */
@@ -20,7 +21,8 @@ h1{
   background: white;
 
 }
-
+ 
+        a { color: black; background: lightcyan; padding: 5px 10px; margin: 30px 0px; float: none; } a:hover { background-color: black; color: lightcyan; }
 
 h2{
 
@@ -53,11 +55,7 @@ img {
   max-width: 100%;
 }
 
-a{
 
-  color: white;
-
-}
 
 /* Gallery Stying */
 .gallery .control-button {
